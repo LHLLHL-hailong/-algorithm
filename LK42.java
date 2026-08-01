@@ -23,7 +23,7 @@ class Solution {
                     int with=i-left-1;
                     int hei=Math.min(height[left],height[i])-bottom;
 
-                    sum+=with*hei;
+                    sum+=with*hei;`
 
 
 
