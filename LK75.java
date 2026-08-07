@@ -21,12 +21,11 @@ class Solution {
                 mid++;
             }else if(nums[mid]==0){
 
-                if(mid>left){
+       
                 swap(nums,mid,left+1);
                 left++;
-                }else{
-                    mid=left+1;//我的这个算法需要考虑这个问题,否则答案会呈现出诡异的规律性错误
-                }
+                mid++;//这个和下边的逻辑是不一样的，同边是能保证的，可以直接mid++(不加还不行，不然可能会出错)，但是异边是不能保证的
+
 
             }else{
                 swap(nums,mid,right-1);
