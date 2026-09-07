@@ -20,7 +20,7 @@ class Solution {
 
         int[][]dp=new int[prices.length][2];
 
-        //dp[i][0] 未持有国股票
+        //dp[i][0] 未持有股票
         //dp[i][1] 持有股票
 
         dp[0][0]=0;

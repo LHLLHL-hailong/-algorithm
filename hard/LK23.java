@@ -8,7 +8,7 @@ class Solution {
 
         int mid=(left+right)/2;
 
-        return build(merge(lists,left,mid),merge(lists,mid+1,right));
+        return build(merge(lists,left,mid),merge(lists,mid+1,right));//注意这里，merge确保返回一个ListNode(可能为null) build负责进行排序
 
     }
 

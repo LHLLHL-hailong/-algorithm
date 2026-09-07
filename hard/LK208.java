@@ -72,3 +72,8 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
+
+/*
+这个前缀树的题目中并没有删除逻辑，判断有没有前缀（startsWith）看看这个树的结构是否存在就可以了
+
+ */

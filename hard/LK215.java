@@ -49,7 +49,7 @@ class Solution {
             if(cnt==kk){
                 return nums[cnt];
             }else if(cnt<kk){
-                left=cnt+1;
+                left=cnt+1;//注意：不要改变kk的值，这个是下标
             }else{
                 right=cnt-1;
 
