@@ -1,6 +1,5 @@
 class Solution {
 
-
     void swap(int[][]nums,int from,int to){
         int[]tmp=nums[from];
         nums[from]=nums[to];
@@ -28,6 +27,8 @@ class Solution {
 
         }
 
+        k--;
+
         int left=0;
         int right=index-1;
 
@@ -53,13 +54,27 @@ class Solution {
 
             if(k>l){//todo:是坐标还是应该是对少个
 
-            }else if(k<l)else{}
+            for(int k=left;k<=l;k++){
+                res[cnt++]=nums[k][0];
+            }
 
+            left=l+1;
 
+            }else if(k<l){
 
+                right=l-1;
+                
+            }else{
+            for(int k=left;k<=l;k++){
+                res[cnt++]=nums[k][0];
+            }
+                return res;
+            }
 
         }
+
+        return res;
         
         
     }
-}
+}    
