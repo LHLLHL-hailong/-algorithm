@@ -1,6 +1,4 @@
-/**
- * 很简单了
- */
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -18,31 +16,38 @@
  */
 class Solution {
 
-    int max=0;
 
+    void dfs(TreeNode root){
 
-    int dfs(TreeNode root){
-
-        if(root==null){
-            return 0;
+        if(root == null){
+            return ;
         }
 
-        int leftNum=dfs(root.left);
-        int rightNum=dfs(root.right);
+        TreeNode left=root.left;
+        TreeNode right=root.right;
 
-        max=Math.max(max,leftNum+rightNum);
+        root.left=null;
+        root.right=null;
+        head.right=root;
+        head=head.right;
 
-        return Math.max(leftNum,rightNum)+1;
+        dfs(left);
+        dfs(right);
+
 
     }
 
+    TreeNode head=new TreeNode(-1);
 
 
-    public int diameterOfBinaryTree(TreeNode root) {
+    public void flatten(TreeNode root) {
+
+       // TreeNode ptr=head;
 
         dfs(root);
 
-        return max;
+       // return ptr.right;
+
         
     }
 }
