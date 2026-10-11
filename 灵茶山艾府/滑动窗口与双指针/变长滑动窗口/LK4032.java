@@ -8,7 +8,8 @@ class Solution {
         for(int num:numms)max=Math.max(max,num);
 
         int limit=(int)Math.sqrt(max);
-
+    
+    
         boolean []is=new boolean[limit+1];
 
         is[0]=true;
