@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "question": 34,
+  "status": "passed",
+  "cases": 1027,
+  "source": "homework/10-21/LK34.java",
+  "original_submission_compiles": true,
+  "normalization": "仅测试定义中重命名Solution，未补分号或更改用户方法体",
+  "submitted_sha256": "be9427d8483d4f0000bbf90b8222927d78f4dfbec2395b259c33ed044d1b9e3b",
+  "old_submitted_sha256": "b7b99a8ec13abe81508a3df66480833127369419d013b35419689509d8950e3e",
+  "other_method_bodies_unchanged": true,
+  "other_file_changes": {
+    "31": "unchanged",
+    "33": "unchanged",
+    "48": "unchanged",
+    "104": "unchanged"
+  },
+  "source_files_unchanged_by_assistant": true
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-02",
+  "recorded_at": "2026-11-02T16:26:54+08:00",
+  "submission_hashes": {
+    "312": "a9aca507d5f58d35d00ab72aee79c3461d2be774b8c6f3ab358a73e122580ff9",
+    "4": "3b8ce14ce782d3755edcd48df9eae6ba09252a2f379d0209733e5a917efcb8aa",
+    "437": "10f9eb903409ea9d8d3ebe6aa5fd5f1bf0fb80da44e6886cb4697f9b986c83ca",
+    "297": "17ba7f1b18a3bb5cb5c207fe3a2763b841e673c5c1a6d5ed600b665faf34d51a"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "source_methods_unchanged": true,
+  "leetcode_ac_verified": false,
+  "adjustments": "仅补java.util/TreeNode，调整Solution或Codec类名与public声明，原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "RETAINED_KEYS_437=1001\nREUSE437_FIRST=1\nREUSE437_SECOND=2\nCHECKS=[1571, 16580, 609, 608]\nRANK_CHECKS=6925\n",
+  "passed": true,
+  "primary_invocation_scope": "312/4可复用；437主测每例新Solution、额外复用单列；297同一对Codec反复交叉/自调用。",
+  "checks_by_question": {
+    "312": 1571,
+    "4": 16580,
+    "437": 609,
+    "297": 608
+  },
+  "total_cases": 19368,
+  "additional_rank_checks_4": 6925,
+  "same_instance_reuse_observations": {
+    "437": {
+      "calls": "[1],target1后再次[1],target1",
+      "second_expected": 1,
+      "second_actual": 2
+    }
+  },
+  "space_observation_437": {
+    "balanced_tree_nodes": 1000,
+    "tree_height": 10,
+    "retained_map_keys": 1001,
+    "reason": "计数降为0的键仍保留，当前实际总辅助空间最坏O(n)。"
+  },
+  "original_hashes_unchanged": true
+}

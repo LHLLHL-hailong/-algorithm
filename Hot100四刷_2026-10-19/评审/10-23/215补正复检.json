@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "question": 215,
+  "status": "passed",
+  "cases": 2038,
+  "source": "homework/10-22/LK215.java",
+  "source_sha256": "da42b460f2b5ba461ec74629b20c0073d4940d410f9b33a19c01fdde0873c5d5",
+  "normalization": "只在测试副本补java.util导入、重命名Solution；方法体保持原样",
+  "large_cases": "10万元素升序（范围-10000..9999）、降序、全相等；k为1、中位、n，多次随机路径",
+  "performance_assessment": "当前区间均匀随机枢轴，保留等值均分；期望O(n)，最好Theta(n)，最坏Theta(n^2)。大样例通过不构成所有随机路径的最坏时间保证。",
+  "remaining_comment_correction": "原注释最好O(1)尚未改为O(n)，已反馈，不阻止代码验收",
+  "input_seed": 1023,
+  "algorithm_random_seed": "使用用户new Random()，未注入固定算法种子",
+  "source_unchanged_by_assistant": true,
+  "scope": "本地检查，不声称访问确认力扣全量AC"
+}

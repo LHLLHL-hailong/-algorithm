@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "recorded_at": "2026-10-27T19:09:34+08:00",
+  "submission_hashes": {
+    "84": "6cd2559b9b3f4d11948a155843492a908eadd9bc15783df44352f058be7aa3e5",
+    "85": "8c415035e61f4c863163c127e244d51438c81acaf9728cf2162cf064993f833d",
+    "56": "86e295cb8bc12c82b4bca89c1ee40c1982324b05baf741c56d9e79476806c32c",
+    "75": "bb83d1d80eb5f0f236dd9e4b9a1be48e6f0badb0ae91c86ee525f82037f057a7",
+    "70": "bb686fb326dc6dd9375b6ade0dc59228eb288dcaeaf7c00511ebefa4531e2d70"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util/java.math导入、调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "CHECKS=[22853, 6055, 1009, 89576, 45]\n",
+  "passed": true,
+  "checks_by_question": {
+    "84": 22853,
+    "85": 6055,
+    "56": 1009,
+    "75": 89576,
+    "70": 45
+  },
+  "total_cases": 119538
+}

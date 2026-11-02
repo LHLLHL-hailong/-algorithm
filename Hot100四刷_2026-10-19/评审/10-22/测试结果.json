@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "status": "139_first_version_incorrect_latest_version_passed_others_passed",
+  "checks": {
+    "139_v2": 2007,
+    "155_operations": 10012,
+    "215": 2025,
+    "136": 2003,
+    "169": 2003,
+    "139_v1_counterexample_confirmed": true
+  },
+  "code_passed_ids": [
+    139,
+    155,
+    215,
+    136,
+    169
+  ],
+  "139_variants": [
+    {
+      "version": 1,
+      "independence": "self_reported_independent",
+      "status": "incorrect",
+      "counterexample": {
+        "s": "ba",
+        "dictionary": [
+          "a",
+          "b"
+        ],
+        "expected": true,
+        "actual": false
+      }
+    },
+    {
+      "version": 2,
+      "independence": "self_reported_after_reading_answer",
+      "status": "passed",
+      "grade": "B"
+    }
+  ],
+  "215_performance_note": "固定首元素；升序N个数且k=1，扫描次数N(N-1)/2；全相等均分不解决有序退化。最好Theta(N)，最坏Theta(N^2)。本次3000升序功能检查通过，不作为最大约束下时限证明。",
+  "normalization": "同文件的139两个练习版本分别更名、补java.util导入；所有方法体保持原样。重复类名本身不作为算法失败。",
+  "method": "实际Java，BFS参考139，ArrayList参考155，排序参考215，合法配对生成136，严格多数输入169",
+  "seed": 1022,
+  "submission_sha256": {
+    "139": "eb5b6241ee417dc616974e2d7f534f797efed05c952ebe22319eb6e802a3b5c1",
+    "155": "09ba598335e74b98fe42df1e172d5f23181c49281c172de7bc5c30b02e3edff6",
+    "215": "8c8bd907da474fda1e800a4ab3565f31351b0ab5a5d9b7e7fb36b6dc03de1391",
+    "136": "11a68847db18b940791fbe729f88e3b34935358c3252e09aca01cb5d4e93dafe",
+    "169": "66ddf15b4c61e10ee9798e7f16b858d4b324e0b2ef9953e0d13dec061f385886"
+  },
+  "submission_files_unchanged": true,
+  "scope": "本地功能正确性不等于已确认力扣全量AC或最坏输入运行时合格"
+}

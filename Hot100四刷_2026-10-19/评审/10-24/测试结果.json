@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "test_cases_by_question": {
+    "2": 1007,
+    "19": 1004,
+    "23": 1007,
+    "141": 1861,
+    "142": 1861,
+    "31": 1007,
+    "33": 2050
+  },
+  "total_cases": 9797,
+  "debug_output": {
+    "question": 142,
+    "captured_bytes": 108828,
+    "line": 39,
+    "source": "homework/10-24/LK142.java"
+  },
+  "seed": 1024,
+  "method": "实际Java：BigInteger参考两数相加；链表节点身份及排序参考；环入口按节点身份校验；31穷举排列参考；33线性参考；随机与边界",
+  "normalization": "仅新目录副本补导入与ListNode、为Solution更名并去public以同文件编译；方法体不变。142调试输出在测试驱动中捕获计数，未删除。",
+  "submission_paths": {
+    "2": "homework/10-24/LK2.java",
+    "19": "homework/10-24/LK19.java",
+    "23": "homework/10-24/LK23.java",
+    "141": "homework/10-24/LK141.java",
+    "142": "homework/10-24/LK142.java",
+    "31": "homework/10-24/review/LK31.java",
+    "33": "homework/10-24/review/LK33.java"
+  },
+  "submission_sha256": {
+    "2": "bb4957cb8c5f7c42c9131f3d89a17a8fb78b7aaa0d1a7955f59b53e2a97b91ef",
+    "19": "55faed8d17de7e13cf603030e295222e19f06454277ed52bb392ee01c22b8eb3",
+    "23": "b5c90a8a674514e58b5052512fb78658789d0dc5f82d74b353c2cacec540bdf2",
+    "141": "b76c69aceb6d7e36d0abfd3508c3f5cfc7db8e16731fdeb2610d2f0d9778199e",
+    "142": "3754ecc2cce5e51d30c1470a7f356c631fdc9e41820273c3c0b1de5bac0703bd",
+    "31": "eaed06939a5b333d8a015ce0b84fc84c4295bceae945677643612c202e2150bd",
+    "33": "eb560517ae0cad7759798feca5160185cdc661d5750594c58cf0f8f997935caf"
+  },
+  "submission_files_unchanged": true,
+  "scope": "合法题目约束；两数相加允许复用独立输入链表；本地检查不是力扣全量AC证明"
+}

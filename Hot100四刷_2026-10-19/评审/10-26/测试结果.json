@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "recorded_at": "2026-10-26T17:29:41+08:00",
+  "submission_hashes": {
+    "20": "be604083c7e5f52ef63040fd7338e75c82bd5cd673fbb12f1a73fe89794c07b9",
+    "32": "49faaac55cd79d7eb5f2de2aa546992511b589cb060398c80187256759ff0a0e",
+    "239": "5ba27f903fc32f652f050e3f444ee1099b7e8dfdeca53919b70c2504933d5fde",
+    "394": "1623a4358a068cb159f3b57348dbb4fa92cc5b43647b6bda1b0957028e3de116",
+    "739": "ec07b966407a62de160fef69b1ce1848133c9ebd127d90058758d76a7adc4eab",
+    "139": "37db288383c21848a80d15e2204ffe47540f6f1b6b49e33545919206f24ae19a",
+    "215": "ee94d5dc155dcbea695929e151cff87ac18ef26fc4c5db3a7e5d86fc61b9af46"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util导入、调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "CHECKS=[9336, 33772, 22333, 1009, 1008, 1008, 1033]\nPARTITION_CHECKS=1000\n",
+  "passed": true,
+  "checks_by_question": {
+    "20": 9336,
+    "32": 33772,
+    "239": 22333,
+    "394": 1009,
+    "739": 1008,
+    "139": 1008,
+    "215": 1033
+  },
+  "total_cases": 69499,
+  "additional_partition_checks_215": 1000
+}

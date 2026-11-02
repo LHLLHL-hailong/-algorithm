@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "status": "original_34_compile_failed_others_passed",
+  "original_submission_passed_ids": [
+    31,
+    33,
+    48,
+    104
+  ],
+  "original_34_compile": {
+    "status": "failed",
+    "exit_code": 1,
+    "diagnostics": "C:\\Users\\lenovo\\Nutstore\\1\\���ݽṹ\\��������¼\\�ʼ�\\tmp\\Hot100��ˢ_2026-10-19\\����\\10-21\\Q34Submitted.java:35: ����: ��Ҫ';'\n        int r1=-1\n                 ^\n1 ������",
+    "logic_copy_patch": "仅测试副本中给int r1=-1补一个分号；不计为原提交通过"
+  },
+  "test_cases_by_question": {
+    "31": 1009,
+    "33": 2060,
+    "34_logic_copy": 1027,
+    "48": 1004,
+    "104": 1003
+  },
+  "total_cases_including_logic_copy": 6103,
+  "method": "实际Java：31穷举多重集合排列参考；33/34线性参考；48坐标参考；104层序遍历参考；固定种子随机和边界",
+  "seed": 1021,
+  "normalization": "集合导入、独立类名与TreeNode测试定义；31/33/48/104方法体保持原样",
+  "submission_sha256": {
+    "31": "c4275b000d6210c5b22cef86b79bf4498918a6f94d30df12aac33588afeed1da",
+    "33": "285c10f5875a88ace2c51a9fbeaf196f61f3cf93a6811e6452e8dd9ddcf41b20",
+    "34": "b7b99a8ec13abe81508a3df66480833127369419d013b35419689509d8950e3e",
+    "48": "9c94c539b2a864404e054fb0520202968d6df8a1a30f337b19debf90a21ec42f",
+    "104": "bff2bf3a6a4d9a0f051987a37f41ece5c133f12cde5188c1c24708a294c1b61c"
+  },
+  "submission_files_unchanged": true,
+  "scope": "34副本补分号后的逻辑通过不能算作原件编译通过；本地测试不等于力扣全量AC"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "status": "passed",
+  "test_cases_by_question": {
+    "139": 2007,
+    "76": 2010,
+    "15": 2007
+  },
+  "total_cases": 6024,
+  "seed": 1023,
+  "method": "实际Java方法；139与BFS对照、76与最短覆盖枚举对照、15与三下标枚举对照；每题2000组随机及边界用例",
+  "normalization": "仅评审目录副本补java.util导入、为Solution更名；方法体不变",
+  "submission_sha256": {
+    "139": "0c832ed5080d53ab5e1bce09da4928030d87deb1599eee6f973ba2f393d4bc6c",
+    "76": "f38327321a063cf94728cfe146f42b3ade8650f7210d740a94517c6926e70399",
+    "15": "3b468950796ff0739f19318c9a18cab37ea31a556eb837b82bdf5e4e24c354b2"
+  },
+  "submission_files_unchanged": true,
+  "scope": "仅本次提交的139/76/15，不含缺交的215补正；本地检查不是力扣全量AC声明"
+}

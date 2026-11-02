@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-31",
+  "recorded_at": "2026-10-31T21:11:40+08:00",
+  "submission_hashes": {
+    "105": "a3dd09f8b9198738be798421b797561c2babd694c05b20d735fcaed27730b5e1",
+    "114": "db1457574a22a883216ebae535269d1cda86ba3009b85be334c50a3d8e122d48",
+    "124": "9289ccca41959d2c1c46985187cd0b432644c0a62983ee8bd312facf92901340",
+    "226": "52c5114be48e98d1ba34e96f14702b6cc65e2e3dd679a64b8fa10e7bcfa53607",
+    "543": "29b6f365d4209765f3e0a5c16696ecfd85393f187573795a4cacbd1097378f02",
+    "4": "e98fd58aa2720e630bf68572bc334c9ffa1bfe55d5879b9aa68913f91e02cda0"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util导入、TreeNode辅助类、调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "REUSE114_CROSS_LINK=true\nREUSE124_FIRST=5\nREUSE124_SECOND=5\nREUSE543_FIRST=2\nREUSE543_SECOND=2\nCHECKS=[802, 807, 807, 805, 806, 64510]\nRANK_CHECKS=5000\n",
+  "passed": true,
+  "primary_tree_invocation_scope": "主测试每例新Solution；有字段的同实例复用边界另记",
+  "checks_by_question": {
+    "105": 802,
+    "114": 807,
+    "124": 807,
+    "226": 805,
+    "543": 806,
+    "4": 64510
+  },
+  "total_cases": 68537,
+  "additional_rank_checks_4": 5000,
+  "same_instance_reuse_observations": {
+    "114": {
+      "first_root": "[1]",
+      "second_root": "[2]",
+      "cross_tree_link": true
+    },
+    "124": {
+      "calls": [
+        "[5]",
+        "[-1]"
+      ],
+      "second_expected": -1,
+      "second_actual": 5
+    },
+    "543": {
+      "calls": [
+        "[1,2,3]",
+        "[0]"
+      ],
+      "second_expected": 0,
+      "second_actual": 2
+    }
+  }
+}

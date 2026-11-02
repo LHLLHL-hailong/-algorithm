@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "status": "passed",
+  "test_cases_by_question": {
+    "1": 2003,
+    "283": 2005,
+    "3": 2008,
+    "438": 2008,
+    "76": 2010
+  },
+  "total_test_cases": 10034,
+  "seed": 1019,
+  "method": "实际Java实现：边界样例、2000组/题随机对拍、3/438/76的10万字符用例",
+  "normalization": "仅在新评审目录中添加java.util导入、重命名Solution类，保持方法体不变",
+  "scope": "非空p/t；438小写英文字母；76大小写英文字母；本地测试不等同力扣全量AC",
+  "submission_sha256": {
+    "1": "5808a7943be98fae81e94310fe471c418a220ef3486b97c894f6f92c3838203e",
+    "283": "296bdd6ececfe3eb258c005b21b68dd57e57075da14a242ff665c03ae17f1e56",
+    "3": "802cf8258ee057c85cc2b54a07d89fb568f2ee2a7289fa5cc59395ccd0479c78",
+    "438": "705595d4cc091831826090f9f32dc0861b0a35e87878adcb3c49f85cea1fa934",
+    "76": "a6b4376f3f97e5055a0a2b306042f5759d5a0519076fe0f9c0414b71765c22f6"
+  },
+  "submission_files_unchanged": true
+}

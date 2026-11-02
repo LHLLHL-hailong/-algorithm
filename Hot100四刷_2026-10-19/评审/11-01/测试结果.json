@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-01",
+  "recorded_at": "2026-11-01T19:05:01+08:00",
+  "submission_hashes": {
+    "236": "dd3f6e8e17e1e1a962a111ae0b7c17d7519847d4a370401c5e337b01b0c26555",
+    "437": "7cc770b5523fef838585cb1561fe9c78d9547c4ea84fb12886c97c714209b4bb",
+    "538": "0ec6254b55544495923fdf563f7b9d2b180109364180c35dee51ccfebbc18fa9",
+    "617": "b5f45a9617819e6fc80c9ac784d27df3d853f2c308d7ac7f7c326d1efb1cf8a6",
+    "297": "82bbfdbf4c716a973d19fd2ff724774b19e099af0280115727ddd4fb8c2bd26a"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "只添加java.util导入/TreeNode辅助类，将Solution或Codec类名改为各题唯一名称，原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "RETAINED_KEYS_437=1001\nREUSE437_FIRST=1\nREUSE437_SECOND=2\nREUSE538_FIRST=1\nREUSE538_SECOND=2\nCHECKS=[6018, 1209, 705, 1005, 1008]\n",
+  "passed": true,
+  "primary_invocation_scope": "236可复用；437/538主测每例新Solution，字段复用观察另记；297使用同一对Codec反复/交叉调用，覆盖接口正常使用方式。",
+  "checks_by_question": {
+    "236": 6018,
+    "437": 1209,
+    "538": 705,
+    "617": 1005,
+    "297": 1008
+  },
+  "total_cases": 9945,
+  "same_instance_reuse_observations": {
+    "437": {
+      "calls": "[1]后再次[1]",
+      "second_expected": 1,
+      "second_actual": 2
+    },
+    "538": {
+      "calls": "[1]后再次[1]",
+      "second_expected": 1,
+      "second_actual": 2
+    }
+  },
+  "space_observation_437": {
+    "balanced_tree_nodes": 1000,
+    "tree_height": 10,
+    "retained_map_keys": 1001,
+    "reason": "回溯减至0后没有删除key，总空间最坏O(n)，不只是O(h)。"
+  },
+  "original_hashes_unchanged": true
+}

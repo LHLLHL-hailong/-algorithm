@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "recorded_at": "2026-10-25T22:31:19+08:00",
+  "submission_hashes": {
+    "146": "1bd6565eb0747504cadfce778979e44ae5c3db322412f0080763de7f44d1f5cb",
+    "148": "90bc34919d2a9de21e01279d5f326a124d58347f2e7afaf2cc249400b5613f6d",
+    "160": "deabd4201ef42f56a731714b38e3f7b726f242752256047421847d3ba07b88da",
+    "206": "adfb827421f287aff0d5e37d2fbf5d56dd9b831cba6cedd8f5d5bb58537ede2b",
+    "234": "c532f493e94b20ce7d398ed9f32993d14ae4c1732ff4954860c963974905415a",
+    "48": "342c5bb3004a0f05d4c25b4face11f674c4639fdd8f52d38c614b9484a66807f",
+    "155": "2f93b190ebc96842a83007b863b3585234adbac3dd6cd25147caf9c62c3f543b"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util导入及ListNode辅助类，调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "CHECKS=[12629, 510, 1232, 506, 2549, 100, 48035]\n",
+  "passed": true,
+  "checks_by_question": {
+    "146": 12629,
+    "148": 510,
+    "160": 1232,
+    "206": 506,
+    "234": 2549,
+    "48": 100,
+    "155": 48035
+  },
+  "check_units": {
+    "146": "操作核验次数",
+    "148": "测试用例数",
+    "160": "测试用例数",
+    "206": "测试用例数",
+    "234": "测试用例数",
+    "48": "测试用例数",
+    "155": "操作核验次数"
+  },
+  "total_checks": 65561
+}

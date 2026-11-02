@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-30",
+  "recorded_at": "2026-10-30T20:12:43+08:00",
+  "submission_hashes": {
+    "94": "cb92cce38a5ff8cb4f425b35211dfdf994e2fa1f5683ed8d252134e23e9c1844",
+    "98": "1b2e9ed332e4772c4b7fc57524daa92440b489022dd9d75b78b0b45ef8f5b291",
+    "101": "09db35a4b570c6b95d3a9bf0d16c9b6a83e98a7d7a640b2ca7344ec02103a7a5",
+    "102": "bfd0750d658c13cd184a682614e3424bf3fff28af48720dd7d060c6b3ab6a3e4",
+    "4": "331d68a48d64ac01ae11c27be4b4bbf789c4bfcf7cee88f737b5a44bcf6eeb6c"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util导入、TreeNode辅助类、调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "REUSE94_FIRST=[1]\nREUSE94_SECOND=[1, 2]\nREUSE98_FIRST=true\nREUSE98_SECOND=false\nCHECKS=[1074, 1609, 1603, 1611, 64513]\nRANK_CHECKS=5000\n",
+  "passed": true,
+  "primary_tree_invocation_scope": "每个主测试用例新建Solution，约束内按题分别筛选；复用实例行为另行记录，不混作主测试失败",
+  "checks_by_question": {
+    "94": 1074,
+    "98": 1609,
+    "101": 1603,
+    "102": 1611,
+    "4": 64513
+  },
+  "total_cases": 70410,
+  "additional_rank_checks_4": 5000,
+  "same_instance_reuse_observations": {
+    "94": {
+      "calls": [
+        "[1]",
+        "[2]"
+      ],
+      "first": "[1]",
+      "second_expected": "[2]",
+      "second_actual": "[1, 2]"
+    },
+    "98": {
+      "calls": [
+        "[1]",
+        "[1]"
+      ],
+      "first": true,
+      "second_expected": true,
+      "second_actual": false
+    }
+  }
+}

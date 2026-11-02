@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "recorded_at": "2026-10-28T19:22:39+08:00",
+  "submission_hashes": {
+    "146": "4952170b3601428cffd8ebfea40f46b36dbb69945616c3665e9f2c3860aeff41",
+    "148": "2e37817335c76b76b4ff4995c766ec820175f1a915b4edb034f05c50de82abd5",
+    "239": "a810ea3ae9ccc9a38cac12f7a2bd06d326874430ace6eaaddaca359026cd5f23",
+    "85": "20434702866d14ee634d9bc558254bedb5a86071b8106d30835f07148fae7789"
+  },
+  "compile_exit_code": 0,
+  "compile_output": "",
+  "leetcode_ac_verified": false,
+  "source_methods_unchanged": true,
+  "adjustments": "仅添加java.util导入、ListNode辅助类、调整Solution类名与public声明；原方法体不变。",
+  "execution_exit_code": 0,
+  "execution_output": "CONSTRUCTOR_TAIL_PRE_NULL=true\nCONSTRUCTOR_TAIL_NEXT_HEAD=true\nFIRST_PUT_FIXES_TAIL_PRE=true\nCHECKS=[12630, 1010, 22333, 6055]\n",
+  "passed": true,
+  "checks_by_question": {
+    "146": 12630,
+    "148": 1010,
+    "239": 22333,
+    "85": 6055
+  },
+  "check_units": {
+    "146": "操作核验次数",
+    "148": "测试用例数",
+    "239": "测试用例数",
+    "85": "测试用例数"
+  },
+  "total_checks": 42028,
+  "constructor_146_observations": {
+    "CONSTRUCTOR_TAIL_PRE_NULL": true,
+    "CONSTRUCTOR_TAIL_NEXT_HEAD": true,
+    "FIRST_PUT_FIXES_TAIL_PRE": true
+  }
+}

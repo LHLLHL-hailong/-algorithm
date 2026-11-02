@@ -1,0 +1,2754 @@
+{
+  "schema_version": 1,
+  "round": 4,
+  "timezone": "Asia/Shanghai",
+  "start_date": "2026-10-19",
+  "target_end_date": "2026-11-12",
+  "reserve_end_date": "2026-11-17",
+  "daily_report_deadline": "22:30",
+  "scope": "分类.md与根目录一一对应的现有100题，非动态网页榜单",
+  "source_snapshot_date": "2026-10-19",
+  "historical_mark_counts": {
+    "ov": 39,
+    "over": 33,
+    "mark": 26,
+    "无标记": 2
+  },
+  "status": "D01已验收：5题A，按时完成",
+  "last_user_report_date": "2026-10-19",
+  "summary": {
+    "total_questions": 100,
+    "attempted_this_round": 5,
+    "independently_passed_this_round": 5,
+    "pending_retest": 1,
+    "priority_questions": 15,
+    "priority_stable": 0,
+    "code_validated_this_round": 5,
+    "pending_oral_confirmation": 0
+  },
+  "automation": {
+    "status": "ACTIVE",
+    "id": "hot100",
+    "deadline": "22:30",
+    "timezone": "Asia/Shanghai",
+    "name": "Hot100四刷每日汇报监督",
+    "last_verified_date": "2026-10-19",
+    "scheduled_occurrences": 30,
+    "requires_running_desktop_app": true
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-19",
+      "theme": "滑动窗口诊断",
+      "type": "全量覆盖",
+      "question_ids": [
+        1,
+        283,
+        3,
+        438,
+        76
+      ],
+      "focus": "76 的达标/失效时机；283 保序及末尾归零。",
+      "submission_status": "已按时提交并验收：5题A",
+      "report_id": "2026-10-19-homework-10-19",
+      "grades": {
+        "1": "A",
+        "3": "A",
+        "76": "A",
+        "283": "A",
+        "438": "A"
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-10-20",
+      "theme": "双指针与数组",
+      "type": "全量覆盖",
+      "question_ids": [
+        11,
+        15,
+        42,
+        53,
+        55
+      ],
+      "focus": "15 的去重与指针方向；42 的计算依据。"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-21",
+      "theme": "排列、二分与矩阵",
+      "type": "全量覆盖",
+      "question_ids": [
+        31,
+        33,
+        34,
+        48,
+        104
+      ],
+      "focus": "need 题31/33/48：能解释逆序后缀、有序区间、旋转方向。"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-22",
+      "theme": "need 题集中诊断",
+      "type": "全量覆盖",
+      "question_ids": [
+        139,
+        155,
+        215,
+        136,
+        169
+      ],
+      "focus": "139 的初始状态；155 重复最小值；215 等值输入及区间边界。"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-23",
+      "theme": "阶段复测与补漏",
+      "type": "复测缓冲",
+      "question_ids": [],
+      "focus": "从76/31/33/48/139/155/215中，优先重写当前红黄题，再补遗漏；默认候选76、31、215。"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-24",
+      "theme": "链表基础与归并",
+      "type": "全量覆盖",
+      "question_ids": [
+        2,
+        19,
+        23,
+        141,
+        142
+      ],
+      "focus": "虚拟头结点、进位、倒数位置；23 选一种熟悉且合格的方法。"
+    },
+    {
+      "day": 7,
+      "date": "2026-10-25",
+      "theme": "链表结构与LRU",
+      "type": "全量覆盖",
+      "question_ids": [
+        146,
+        148,
+        160,
+        206,
+        234
+      ],
+      "focus": "146 更新/淘汰/容量1；148 分割后规模必须缩小。"
+    },
+    {
+      "day": 8,
+      "date": "2026-10-26",
+      "theme": "栈、队列与括号",
+      "type": "全量覆盖",
+      "question_ids": [
+        20,
+        32,
+        239,
+        394,
+        739
+      ],
+      "focus": "32 的有效长度来源；239 的过期下标、k=1。"
+    },
+    {
+      "day": 9,
+      "date": "2026-10-27",
+      "theme": "单调栈与数组",
+      "type": "全量覆盖",
+      "question_ids": [
+        84,
+        85,
+        56,
+        75,
+        70
+      ],
+      "focus": "84 等高柱及宽度；85 每行高度更新；75 交换后的指针。"
+    },
+    {
+      "day": 10,
+      "date": "2026-10-28",
+      "theme": "阶段复测与补漏",
+      "type": "复测缓冲",
+      "question_ids": [],
+      "focus": "优先复测146/148/32/239/84/85及前阶段未关闭项；已稳定则跨专题抽3题。"
+    },
+    {
+      "day": 11,
+      "date": "2026-10-29",
+      "theme": "区间DP与基础DP",
+      "type": "全量覆盖",
+      "question_ids": [
+        312,
+        62,
+        64,
+        72,
+        96
+      ],
+      "focus": "312 为什么选最后戳破的气球；状态和枚举顺序要能推导。72 轻量覆盖。"
+    },
+    {
+      "day": 12,
+      "date": "2026-10-30",
+      "theme": "树与二分混合",
+      "type": "全量覆盖",
+      "question_ids": [
+        94,
+        98,
+        101,
+        102,
+        4
+      ],
+      "focus": "树的边界；4 的空数组、k=1、奇偶长度。"
+    },
+    {
+      "day": 13,
+      "date": "2026-10-31",
+      "theme": "树的构造与路径",
+      "type": "全量覆盖",
+      "question_ids": [
+        105,
+        114,
+        124,
+        226,
+        543
+      ],
+      "focus": "105 区间划分；124 返回值与全局答案分开，全负输入。"
+    },
+    {
+      "day": 14,
+      "date": "2026-11-01",
+      "theme": "树的回溯与序列化",
+      "type": "全量覆盖",
+      "question_ids": [
+        236,
+        437,
+        538,
+        617,
+        297
+      ],
+      "focus": "437 前缀和、long、退出分支撤销；297 空节点与重复调用。"
+    },
+    {
+      "day": 15,
+      "date": "2026-11-02",
+      "theme": "阶段复测与补漏",
+      "type": "复测缓冲",
+      "question_ids": [],
+      "focus": "优先复测312/4/124/437/297，追查此前到期但没复测的题。"
+    },
+    {
+      "day": 16,
+      "date": "2026-11-03",
+      "theme": "字符串DP与回文",
+      "type": "全量覆盖",
+      "question_ids": [
+        10,
+        5,
+        647,
+        121,
+        198
+      ],
+      "focus": "10 空串、星号及初始状态；5/647 选熟悉的合格解法，无需强制马拉车。"
+    },
+    {
+      "day": 17,
+      "date": "2026-11-04",
+      "theme": "回溯与括号删除",
+      "type": "全量覆盖",
+      "question_ids": [
+        17,
+        22,
+        39,
+        46,
+        301
+      ],
+      "focus": "恢复现场、去重；301 最少删除的约束，避免误用贪心。"
+    },
+    {
+      "day": 18,
+      "date": "2026-11-05",
+      "theme": "搜索与图结构",
+      "type": "全量覆盖",
+      "question_ids": [
+        79,
+        200,
+        207,
+        208,
+        399
+      ],
+      "focus": "访问标记、拓扑入度；Trie 单词结束标记；未知变量/不连通查询。"
+    },
+    {
+      "day": 19,
+      "date": "2026-11-06",
+      "theme": "序列DP与数组边界",
+      "type": "全量覆盖",
+      "question_ids": [
+        300,
+        152,
+        221,
+        309,
+        581
+      ],
+      "focus": "300 二分应查维护的序列；152 新旧状态隔离；581 已有序输入。"
+    },
+    {
+      "day": 20,
+      "date": "2026-11-07",
+      "theme": "阶段复测与补漏",
+      "type": "复测缓冲",
+      "question_ids": [],
+      "focus": "优先复测10/15/76/300/301及仍不稳定的need题；不把历史低分直接当成本轮失败。"
+    },
+    {
+      "day": 21,
+      "date": "2026-11-08",
+      "theme": "背包与组合",
+      "type": "全量覆盖",
+      "question_ids": [
+        78,
+        279,
+        322,
+        416,
+        494
+      ],
+      "focus": "空集、不可达状态；01/完全背包方向；494 绝对值越界、奇偶、零。"
+    },
+    {
+      "day": 22,
+      "date": "2026-11-09",
+      "theme": "哈希与特殊结构",
+      "type": "全量覆盖",
+      "question_ids": [
+        560,
+        128,
+        240,
+        287,
+        448
+      ],
+      "focus": "560 查询与加入的先后；240 比较方向；287 环映射。"
+    },
+    {
+      "day": 23,
+      "date": "2026-11-10",
+      "theme": "堆、区间与调度",
+      "type": "全量覆盖",
+      "question_ids": [
+        347,
+        253,
+        406,
+        621,
+        461
+      ],
+      "focus": "347 排序方向；253 相邻会议端点；406 排序规则；621 n=0。"
+    },
+    {
+      "day": 24,
+      "date": "2026-11-11",
+      "theme": "基础综合收尾",
+      "type": "全量覆盖",
+      "question_ids": [
+        49,
+        21,
+        238,
+        338,
+        337
+      ],
+      "focus": "49 稳定的分组键；238 含零；337 偷/不偷的子树返回值。"
+    },
+    {
+      "day": 25,
+      "date": "2026-11-12",
+      "theme": "全轮验收",
+      "type": "复测缓冲",
+      "question_ids": [],
+      "focus": "先清红黄题，再闭卷抽5题（2道重点、2道不同专题、1道基础），核对100题和重点题二次通过记录。"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "两数之和 (ov)",
+      "title": "两数之和",
+      "scheduled_day": 1,
+      "scheduled_date": "2026-10-19",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "本轮独立通过",
+      "grade": "A",
+      "first_attempt_date": "2026-10-19",
+      "independent_pass_dates": [
+        "2026-10-19"
+      ],
+      "review_due_dates": [],
+      "evidence": {
+        "type": "用户自述独立完成；实际本地Java测试通过；438/76及3的抽样口头解释通过",
+        "test_result": "评审/10-19/测试结果.json",
+        "leetcode_ac_verified": false,
+        "oral_confirmed_date": "2026-10-19",
+        "duration": {
+          "minutes": null,
+          "reason": "在约3小时课程中边听课边穿插完成，未独立计时，不能以课程长度推算刷题耗时"
+        }
+      },
+      "notes": "独立完成自述、本地代码检查和本次抽样口头解释支持评级A。耗时无法准确估计，课堂中穿插完成。",
+      "source_files": [
+        "LK01.java"
+      ],
+      "self_reported_independent": true,
+      "submitted_file": "homework/10-19/LK1.java",
+      "code_validation": {
+        "status": "passed",
+        "date": "2026-10-19",
+        "cases": 2003
+      },
+      "assessment_history": [
+        {
+          "event": "D01抽问通过",
+          "date": "2026-10-19",
+          "grade": "A",
+          "recorded_at": "2026-10-19T19:56:13+08:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "两数相加 (mark)",
+      "title": "两数相加",
+      "scheduled_day": 6,
+      "scheduled_date": "2026-10-24",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK02.java"
+      ]
+    },
+    {
+      "id": 3,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "无重复字符的最长子串(mark)",
+      "title": "无重复字符的最长子串",
+      "scheduled_day": 1,
+      "scheduled_date": "2026-10-19",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "本轮独立通过",
+      "grade": "A",
+      "first_attempt_date": "2026-10-19",
+      "independent_pass_dates": [
+        "2026-10-19"
+      ],
+      "review_due_dates": [],
+      "evidence": {
+        "type": "用户自述独立完成；实际本地Java测试通过；438/76及3的抽样口头解释通过",
+        "test_result": "评审/10-19/测试结果.json",
+        "leetcode_ac_verified": false,
+        "oral_confirmed_date": "2026-10-19",
+        "duration": {
+          "minutes": null,
+          "reason": "在约3小时课程中边听课边穿插完成，未独立计时，不能以课程长度推算刷题耗时"
+        }
+      },
+      "notes": "独立完成自述、本地代码检查和本次抽样口头解释支持评级A。耗时无法准确估计，课堂中穿插完成。",
+      "source_files": [
+        "LK03.java"
+      ],
+      "self_reported_independent": true,
+      "submitted_file": "homework/10-19/LK3.java",
+      "code_validation": {
+        "status": "passed",
+        "date": "2026-10-19",
+        "cases": 2008
+      },
+      "assessment_history": [
+        {
+          "event": "D01抽问通过",
+          "date": "2026-10-19",
+          "grade": "A",
+          "recorded_at": "2026-10-19T19:56:13+08:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "寻找两个正序数组的中位数 (over)",
+      "title": "寻找两个正序数组的中位数",
+      "scheduled_day": 12,
+      "scheduled_date": "2026-10-30",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK04.java",
+        "hard/LK4.java"
+      ]
+    },
+    {
+      "id": 5,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "最长回文子串 (mark)",
+      "title": "最长回文子串",
+      "scheduled_day": 16,
+      "scheduled_date": "2026-11-03",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK05.java",
+        "exercise/LK5.java",
+        "hard/LK5.java"
+      ]
+    },
+    {
+      "id": 10,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "正则表达式匹配(over)",
+      "title": "正则表达式匹配",
+      "scheduled_day": 16,
+      "scheduled_date": "2026-11-03",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK10.java",
+        "hard/LK10.java"
+      ]
+    },
+    {
+      "id": 11,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "盛最多水的容器 (mark)",
+      "title": "盛最多水的容器",
+      "scheduled_day": 2,
+      "scheduled_date": "2026-10-20",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK11.java"
+      ]
+    },
+    {
+      "id": 15,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "三数之和(mark)",
+      "title": "三数之和",
+      "scheduled_day": 2,
+      "scheduled_date": "2026-10-20",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK15.java",
+        "hard/LK15.java"
+      ]
+    },
+    {
+      "id": 17,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本没什么难(ov)",
+      "title": "电话号码的字母组合",
+      "scheduled_day": 17,
+      "scheduled_date": "2026-11-04",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK17.java"
+      ]
+    },
+    {
+      "id": 19,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "难度有限（双指针一起遍历算一次遍历）（ov）",
+      "title": "删除链表的倒数第N个结点",
+      "scheduled_day": 6,
+      "scheduled_date": "2026-10-24",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK19.java"
+      ]
+    },
+    {
+      "id": 20,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这个题还是比较简单的 （ov）",
+      "title": "有效的括号",
+      "scheduled_day": 8,
+      "scheduled_date": "2026-10-26",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK20.java"
+      ]
+    },
+    {
+      "id": 21,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本上没有难度 (ov)",
+      "title": "合并两个有序链表",
+      "scheduled_day": 24,
+      "scheduled_date": "2026-11-11",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK21.java"
+      ]
+    },
+    {
+      "id": 22,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "还是比较简单的（ov）",
+      "title": "括号生成",
+      "scheduled_day": 17,
+      "scheduled_date": "2026-11-04",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK22.java"
+      ]
+    },
+    {
+      "id": 23,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "合并K个升序链表(over)",
+      "title": "合并K个升序链表",
+      "scheduled_day": 6,
+      "scheduled_date": "2026-10-24",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK23.java",
+        "hard/LK23.java"
+      ]
+    },
+    {
+      "id": 31,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "下一个排列(mark)",
+      "title": "下一个排列",
+      "scheduled_day": 3,
+      "scheduled_date": "2026-10-21",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK31.java"
+      ]
+    },
+    {
+      "id": 32,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "最长有效括号（两边分别变一次，最好记一下）（over）",
+      "title": "最长有效括号",
+      "scheduled_day": 8,
+      "scheduled_date": "2026-10-26",
+      "priority": "重点",
+      "priority_reasons": [
+        "分类.md 重点提示"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK32.java",
+        "hard/LK32.java"
+      ]
+    },
+    {
+      "id": 33,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "这道题难度一般（mark）",
+      "title": "搜索旋转排序数组",
+      "scheduled_day": 3,
+      "scheduled_date": "2026-10-21",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK33.java"
+      ]
+    },
+    {
+      "id": 34,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题就很简单了(ov)",
+      "title": "在排序数组中查找元素的第一个和最后一个位置",
+      "scheduled_day": 3,
+      "scheduled_date": "2026-10-21",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK34.java"
+      ]
+    },
+    {
+      "id": 39,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题还是很简单的(ov)",
+      "title": "组合总和",
+      "scheduled_day": 17,
+      "scheduled_date": "2026-11-04",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK39.java"
+      ]
+    },
+    {
+      "id": 42,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "接雨水(over)",
+      "title": "接雨水",
+      "scheduled_day": 2,
+      "scheduled_date": "2026-10-20",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK42.java",
+        "hard/LK42.java"
+      ]
+    },
+    {
+      "id": 46,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "很简单(ov)",
+      "title": "全排列",
+      "scheduled_day": 17,
+      "scheduled_date": "2026-11-04",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK46.java"
+      ]
+    },
+    {
+      "id": 48,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "旋转图像(over)",
+      "title": "旋转图像",
+      "scheduled_day": 3,
+      "scheduled_date": "2026-10-21",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK48.java",
+        "hard/LK48.java"
+      ]
+    },
+    {
+      "id": 49,
+      "historical_group": "历史中等",
+      "historical_mark": "无标记",
+      "historical_note": "字母异位词分组",
+      "title": "字母异位词分组",
+      "scheduled_day": 24,
+      "scheduled_date": "2026-11-11",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK49.java"
+      ]
+    },
+    {
+      "id": 53,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题基本上没有难度(ov)",
+      "title": "最大子数组和",
+      "scheduled_day": 2,
+      "scheduled_date": "2026-10-20",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK53.java"
+      ]
+    },
+    {
+      "id": 55,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题基本上没有难度(ov)",
+      "title": "跳跃游戏",
+      "scheduled_day": 2,
+      "scheduled_date": "2026-10-20",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK55.java"
+      ]
+    },
+    {
+      "id": 56,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "合并区间(mark)",
+      "title": "合并区间",
+      "scheduled_day": 9,
+      "scheduled_date": "2026-10-27",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK56.java"
+      ]
+    },
+    {
+      "id": 62,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本没难度，记住用动态规划(ov)",
+      "title": "不同路径",
+      "scheduled_day": 11,
+      "scheduled_date": "2026-10-29",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK62.java",
+        "exercise/LK62.java"
+      ]
+    },
+    {
+      "id": 64,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "还是比较简单的，明显动态规划 (ov)",
+      "title": "最小路径和",
+      "scheduled_day": 11,
+      "scheduled_date": "2026-10-29",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK64.java"
+      ]
+    },
+    {
+      "id": 70,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题基本上没有一点难度(ov)",
+      "title": "爬楼梯",
+      "scheduled_day": 9,
+      "scheduled_date": "2026-10-27",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK70.java"
+      ]
+    },
+    {
+      "id": 72,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "编辑距离 (over)",
+      "title": "编辑距离",
+      "scheduled_day": 11,
+      "scheduled_date": "2026-10-29",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK72.java",
+        "hard/LK72.java"
+      ]
+    },
+    {
+      "id": 75,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "颜色分类(mark)",
+      "title": "颜色分类",
+      "scheduled_day": 9,
+      "scheduled_date": "2026-10-27",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK75.java"
+      ]
+    },
+    {
+      "id": 76,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "最小覆盖子串（遗忘得很厉害） (over)",
+      "title": "最小覆盖子串",
+      "scheduled_day": 1,
+      "scheduled_date": "2026-10-19",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评",
+        "分类.md 重点提示"
+      ],
+      "status": "本轮独立通过；待间隔复测",
+      "grade": "A",
+      "first_attempt_date": "2026-10-19",
+      "independent_pass_dates": [
+        "2026-10-19"
+      ],
+      "review_due_dates": [
+        "2026-10-23"
+      ],
+      "evidence": {
+        "type": "用户自述独立完成；实际本地Java测试通过；438/76及3的抽样口头解释通过",
+        "test_result": "评审/10-19/测试结果.json",
+        "leetcode_ac_verified": false,
+        "oral_confirmed_date": "2026-10-19",
+        "duration": {
+          "minutes": null,
+          "reason": "在约3小时课程中边听课边穿插完成，未独立计时，不能以课程长度推算刷题耗时"
+        }
+      },
+      "notes": "首次独立通过并通过抽问；10月23日闭卷复测，距离首次4天，尚未计为重点稳定。",
+      "source_files": [
+        "LK76.java",
+        "hard/LK76.java"
+      ],
+      "self_reported_independent": true,
+      "submitted_file": "homework/10-19/LK76.java",
+      "code_validation": {
+        "status": "passed",
+        "date": "2026-10-19",
+        "cases": 2010
+      },
+      "assessment_history": [
+        {
+          "event": "D01抽问通过",
+          "date": "2026-10-19",
+          "grade": "A",
+          "recorded_at": "2026-10-19T19:56:13+08:00"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "子集(mark)",
+      "title": "子集",
+      "scheduled_day": 21,
+      "scheduled_date": "2026-11-08",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK78.java"
+      ]
+    },
+    {
+      "id": 79,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "就是一个简单的搜索(ov)",
+      "title": "单词搜索",
+      "scheduled_day": 18,
+      "scheduled_date": "2026-11-05",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK79.java"
+      ]
+    },
+    {
+      "id": 84,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "柱状图中最大的矩形(over)",
+      "title": "柱状图中最大的矩形",
+      "scheduled_day": 9,
+      "scheduled_date": "2026-10-27",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK84.java",
+        "hard/LK84.java"
+      ]
+    },
+    {
+      "id": 85,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "hard 题，和 84 类似，需要一步转化(over)",
+      "title": "最大矩形",
+      "scheduled_day": 9,
+      "scheduled_date": "2026-10-27",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK85.java",
+        "hard/LK85.java"
+      ]
+    },
+    {
+      "id": 94,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本无难度(ov)",
+      "title": "二叉树的中序遍历",
+      "scheduled_day": 12,
+      "scheduled_date": "2026-10-30",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK94.java"
+      ]
+    },
+    {
+      "id": 96,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "难度很低，注意空也算一种 (ov)",
+      "title": "不同的二叉搜索树",
+      "scheduled_day": 11,
+      "scheduled_date": "2026-10-29",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK96.java",
+        "exercise/LK96.java"
+      ]
+    },
+    {
+      "id": 98,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "这道题也很简单 (ov)",
+      "title": "验证二叉搜索树",
+      "scheduled_day": 12,
+      "scheduled_date": "2026-10-30",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK98.java"
+      ]
+    },
+    {
+      "id": 101,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "又是一道基本上没有难度的题(ov)",
+      "title": "对称二叉树",
+      "scheduled_day": 12,
+      "scheduled_date": "2026-10-30",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK101.java"
+      ]
+    },
+    {
+      "id": 102,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "二叉树的层序遍历(mark)",
+      "title": "二叉树的层序遍历",
+      "scheduled_day": 12,
+      "scheduled_date": "2026-10-30",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK102.java"
+      ]
+    },
+    {
+      "id": 104,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "二叉树最大深度(ov)",
+      "title": "二叉树的最大深度",
+      "scheduled_day": 3,
+      "scheduled_date": "2026-10-21",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK104.java"
+      ]
+    },
+    {
+      "id": 105,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "从前序与中序构造二叉树(mark)",
+      "title": "从前序与中序遍历序列构造二叉树",
+      "scheduled_day": 13,
+      "scheduled_date": "2026-10-31",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK105.java",
+        "exercise/LK105.java"
+      ]
+    },
+    {
+      "id": 114,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "没什么难度 (ov)",
+      "title": "二叉树展开为链表",
+      "scheduled_day": 13,
+      "scheduled_date": "2026-10-31",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK114.java",
+        "exercise/LK114.java"
+      ]
+    },
+    {
+      "id": 121,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "题本身很简单，需注意细节才能百分百(ov)",
+      "title": "买卖股票的最佳时机",
+      "scheduled_day": 16,
+      "scheduled_date": "2026-11-03",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK121.java"
+      ]
+    },
+    {
+      "id": 124,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "二叉树中的最大路径和 (over)",
+      "title": "二叉树中的最大路径和",
+      "scheduled_day": 13,
+      "scheduled_date": "2026-10-31",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK124.java",
+        "hard/LK124.java"
+      ]
+    },
+    {
+      "id": 128,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "最长连续序列(mark)",
+      "title": "最长连续序列",
+      "scheduled_day": 22,
+      "scheduled_date": "2026-11-09",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK128.java"
+      ]
+    },
+    {
+      "id": 136,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "送分题 (ov)",
+      "title": "只出现一次的数字",
+      "scheduled_day": 4,
+      "scheduled_date": "2026-10-22",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK136.java"
+      ]
+    },
+    {
+      "id": 139,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "单词拆分 (mark)",
+      "title": "单词拆分",
+      "scheduled_day": 4,
+      "scheduled_date": "2026-10-22",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK139.java",
+        "exercise/LK139.java"
+      ]
+    },
+    {
+      "id": 141,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "虽然简单，却是快慢指针的基础(ov)",
+      "title": "环形链表",
+      "scheduled_day": 6,
+      "scheduled_date": "2026-10-24",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK141.java"
+      ]
+    },
+    {
+      "id": 142,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "环形链表 II (mark)",
+      "title": "环形链表II",
+      "scheduled_day": 6,
+      "scheduled_date": "2026-10-24",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK142.java"
+      ]
+    },
+    {
+      "id": 146,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "LRU 缓存（具体细节忘了，需重点复习） (mark)",
+      "title": "LRU缓存",
+      "scheduled_day": 7,
+      "scheduled_date": "2026-10-25",
+      "priority": "重点",
+      "priority_reasons": [
+        "分类.md 重点提示"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK146.java"
+      ]
+    },
+    {
+      "id": 148,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "排序链表（可能不收敛）(mark)",
+      "title": "排序链表",
+      "scheduled_day": 7,
+      "scheduled_date": "2026-10-25",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK148.java"
+      ]
+    },
+    {
+      "id": 152,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "乘积最大子数组（记得状态压缩）(mark)",
+      "title": "乘积最大子数组",
+      "scheduled_day": 19,
+      "scheduled_date": "2026-11-06",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK152.java"
+      ]
+    },
+    {
+      "id": 155,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "最小栈（over）",
+      "title": "最小栈",
+      "scheduled_day": 4,
+      "scheduled_date": "2026-10-22",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK155.java",
+        "hard/LK155.java"
+      ]
+    },
+    {
+      "id": 160,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "简单题，但思路必须记住(ov)",
+      "title": "相交链表",
+      "scheduled_day": 7,
+      "scheduled_date": "2026-10-25",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK160.java",
+        "exercise/LK160.java"
+      ]
+    },
+    {
+      "id": 169,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "多数元素 (ov)",
+      "title": "多数元素",
+      "scheduled_day": 4,
+      "scheduled_date": "2026-10-22",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK169.java"
+      ]
+    },
+    {
+      "id": 198,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "就是一个简单的动态规划 (ov)",
+      "title": "打家劫舍",
+      "scheduled_day": 16,
+      "scheduled_date": "2026-11-03",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK198.java"
+      ]
+    },
+    {
+      "id": 200,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "岛屿数量（有需要注意的点）(mark)",
+      "title": "岛屿数量",
+      "scheduled_day": 18,
+      "scheduled_date": "2026-11-05",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK200.java"
+      ]
+    },
+    {
+      "id": 206,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本上没有难度(ov)",
+      "title": "反转链表",
+      "scheduled_day": 7,
+      "scheduled_date": "2026-10-25",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK206.java",
+        "exercise/LK206.java"
+      ]
+    },
+    {
+      "id": 207,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "难度一般（mark）",
+      "title": "课程表",
+      "scheduled_day": 18,
+      "scheduled_date": "2026-11-05",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK207.java"
+      ]
+    },
+    {
+      "id": 208,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "实现 Trie（前缀树）(over)",
+      "title": "实现Trie前缀树",
+      "scheduled_day": 18,
+      "scheduled_date": "2026-11-05",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK208.java",
+        "hard/LK208.java"
+      ]
+    },
+    {
+      "id": 215,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "数组中的第K个最大元素(over)",
+      "title": "数组中的第K个最大元素",
+      "scheduled_day": 4,
+      "scheduled_date": "2026-10-22",
+      "priority": "重点",
+      "priority_reasons": [
+        "AAAreview.md 的 need"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK215.java",
+        "exercise/LK215.java",
+        "hard/LK215.java"
+      ]
+    },
+    {
+      "id": 221,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "最大正方形(mark)",
+      "title": "最大正方形",
+      "scheduled_day": 19,
+      "scheduled_date": "2026-11-06",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK221.java"
+      ]
+    },
+    {
+      "id": 226,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本没有难度(ov)",
+      "title": "翻转二叉树",
+      "scheduled_day": 13,
+      "scheduled_date": "2026-10-31",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK226.java"
+      ]
+    },
+    {
+      "id": 234,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "别看是简单题，写法不优雅(ov)",
+      "title": "回文链表",
+      "scheduled_day": 7,
+      "scheduled_date": "2026-10-25",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK234.java",
+        "exercise/LK234.java"
+      ]
+    },
+    {
+      "id": 236,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "还是比较简单的 (ov)",
+      "title": "二叉树的最近公共祖先",
+      "scheduled_day": 14,
+      "scheduled_date": "2026-11-01",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK236.java"
+      ]
+    },
+    {
+      "id": 238,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本上没有难度 (ov)",
+      "title": "除自身以外数组的乘积",
+      "scheduled_day": 24,
+      "scheduled_date": "2026-11-11",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK238.java"
+      ]
+    },
+    {
+      "id": 239,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "滑动窗口最大值 (over)",
+      "title": "滑动窗口最大值",
+      "scheduled_day": 8,
+      "scheduled_date": "2026-10-26",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK239.java",
+        "hard/LK239.java"
+      ]
+    },
+    {
+      "id": 240,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "代码很简单，思路很难想出来 (mark)",
+      "title": "搜索二维矩阵II",
+      "scheduled_day": 22,
+      "scheduled_date": "2026-11-09",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK240.java"
+      ]
+    },
+    {
+      "id": 253,
+      "historical_group": "历史中等",
+      "historical_mark": "无标记",
+      "historical_note": "会议室 II",
+      "title": "会议室II",
+      "scheduled_day": 23,
+      "scheduled_date": "2026-11-10",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK253.java"
+      ]
+    },
+    {
+      "id": 279,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "完全平方数(over)",
+      "title": "完全平方数",
+      "scheduled_day": 21,
+      "scheduled_date": "2026-11-08",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK279.java",
+        "hard/LK279.java"
+      ]
+    },
+    {
+      "id": 283,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "难度一般，下面这个步骤容易落(mark)",
+      "title": "移动零",
+      "scheduled_day": 1,
+      "scheduled_date": "2026-10-19",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "本轮独立通过",
+      "grade": "A",
+      "first_attempt_date": "2026-10-19",
+      "independent_pass_dates": [
+        "2026-10-19"
+      ],
+      "review_due_dates": [],
+      "evidence": {
+        "type": "用户自述独立完成；实际本地Java测试通过；438/76及3的抽样口头解释通过",
+        "test_result": "评审/10-19/测试结果.json",
+        "leetcode_ac_verified": false,
+        "oral_confirmed_date": "2026-10-19",
+        "duration": {
+          "minutes": null,
+          "reason": "在约3小时课程中边听课边穿插完成，未独立计时，不能以课程长度推算刷题耗时"
+        }
+      },
+      "notes": "独立完成自述、本地代码检查和本次抽样口头解释支持评级A。耗时无法准确估计，课堂中穿插完成。",
+      "source_files": [
+        "LK283.java",
+        "exercise/LK283.java"
+      ],
+      "self_reported_independent": true,
+      "submitted_file": "homework/10-19/LK283.java",
+      "code_validation": {
+        "status": "passed",
+        "date": "2026-10-19",
+        "cases": 2005
+      },
+      "assessment_history": [
+        {
+          "event": "D01抽问通过",
+          "date": "2026-10-19",
+          "grade": "A",
+          "recorded_at": "2026-10-19T19:56:13+08:00"
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "寻找重复数（over）",
+      "title": "寻找重复数",
+      "scheduled_day": 22,
+      "scheduled_date": "2026-11-09",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK287.java",
+        "hard/LK287.java"
+      ]
+    },
+    {
+      "id": 297,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "稍微简单一些的 hard 题，需仔细看(over)",
+      "title": "二叉树的序列化与反序列化",
+      "scheduled_day": 14,
+      "scheduled_date": "2026-11-01",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK297.java",
+        "hard/LK297.java"
+      ]
+    },
+    {
+      "id": 300,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "最长递增子序列（over）",
+      "title": "最长递增子序列",
+      "scheduled_day": 19,
+      "scheduled_date": "2026-11-06",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK300.java",
+        "exercise/LK300.java",
+        "hard/LK300.java"
+      ]
+    },
+    {
+      "id": 301,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "删除无效的括号（over）",
+      "title": "删除无效的括号",
+      "scheduled_day": 17,
+      "scheduled_date": "2026-11-04",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK301.java",
+        "hard/LK301.java"
+      ]
+    },
+    {
+      "id": 309,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "最佳买卖股票时机含冷冻期(over)",
+      "title": "买卖股票的最佳时机含冷冻期",
+      "scheduled_day": 19,
+      "scheduled_date": "2026-11-06",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK309.java"
+      ]
+    },
+    {
+      "id": 312,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "代码简单，状态转移特别难想，必须背(over)",
+      "title": "戳气球",
+      "scheduled_day": 11,
+      "scheduled_date": "2026-10-29",
+      "priority": "重点",
+      "priority_reasons": [
+        "分类.md 重点提示"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK312.java",
+        "hard/LK312.java"
+      ]
+    },
+    {
+      "id": 322,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "零钱兑换 (over)",
+      "title": "零钱兑换",
+      "scheduled_day": 21,
+      "scheduled_date": "2026-11-08",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK322.java",
+        "exercise/LK322.java"
+      ]
+    },
+    {
+      "id": 337,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "打家劫舍 III (over)",
+      "title": "打家劫舍III",
+      "scheduled_day": 24,
+      "scheduled_date": "2026-11-11",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK337.java"
+      ]
+    },
+    {
+      "id": 338,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "难度一般 (over)",
+      "title": "比特位计数",
+      "scheduled_day": 24,
+      "scheduled_date": "2026-11-11",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK338.java"
+      ]
+    },
+    {
+      "id": 347,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "前 K 个高频元素(over)",
+      "title": "前K个高频元素",
+      "scheduled_day": 23,
+      "scheduled_date": "2026-11-10",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK347.java",
+        "exercise/LK347.java"
+      ]
+    },
+    {
+      "id": 394,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "思路比较简单，代码有点复杂 (ov)",
+      "title": "字符串解码",
+      "scheduled_day": 8,
+      "scheduled_date": "2026-10-26",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK394.java",
+        "exercise/LK394.java"
+      ]
+    },
+    {
+      "id": 399,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "除法求值(over)",
+      "title": "除法求值",
+      "scheduled_day": 18,
+      "scheduled_date": "2026-11-05",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK399.java",
+        "hard/LK399.java"
+      ]
+    },
+    {
+      "id": 406,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "根据身高重建队列(over)",
+      "title": "根据身高重建队列",
+      "scheduled_day": 23,
+      "scheduled_date": "2026-11-10",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK406.java"
+      ]
+    },
+    {
+      "id": 416,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "分割等和子集（mark）",
+      "title": "分割等和子集",
+      "scheduled_day": 21,
+      "scheduled_date": "2026-11-08",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK416.java",
+        "hard/LK416.java"
+      ]
+    },
+    {
+      "id": 437,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "路径总和 III（over）",
+      "title": "路径总和III",
+      "scheduled_day": 14,
+      "scheduled_date": "2026-11-01",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK437.java",
+        "hard/LK437.java"
+      ]
+    },
+    {
+      "id": 438,
+      "historical_group": "历史中等",
+      "historical_mark": "over",
+      "historical_note": "找到字符串中所有字母异位词(over)",
+      "title": "找到字符串中所有字母异位词",
+      "scheduled_day": 1,
+      "scheduled_date": "2026-10-19",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "本轮独立通过",
+      "grade": "A",
+      "first_attempt_date": "2026-10-19",
+      "independent_pass_dates": [
+        "2026-10-19"
+      ],
+      "review_due_dates": [],
+      "evidence": {
+        "type": "用户自述独立完成；实际本地Java测试通过；438/76及3的抽样口头解释通过",
+        "test_result": "评审/10-19/测试结果.json",
+        "leetcode_ac_verified": false,
+        "oral_confirmed_date": "2026-10-19",
+        "duration": {
+          "minutes": null,
+          "reason": "在约3小时课程中边听课边穿插完成，未独立计时，不能以课程长度推算刷题耗时"
+        }
+      },
+      "notes": "独立完成自述、本地代码检查和本次抽样口头解释支持评级A。耗时无法准确估计，课堂中穿插完成。",
+      "source_files": [
+        "LK438.java"
+      ],
+      "self_reported_independent": true,
+      "submitted_file": "homework/10-19/LK438.java",
+      "code_validation": {
+        "status": "passed",
+        "date": "2026-10-19",
+        "cases": 2008
+      },
+      "assessment_history": [
+        {
+          "event": "D01抽问通过",
+          "date": "2026-10-19",
+          "grade": "A",
+          "recorded_at": "2026-10-19T19:56:13+08:00"
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "很简单，别用 HashSet 版本 (ov)",
+      "title": "找到所有数组中消失的数字",
+      "scheduled_day": 22,
+      "scheduled_date": "2026-11-09",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK448.java"
+      ]
+    },
+    {
+      "id": 461,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "汉明距离(ov)",
+      "title": "汉明距离",
+      "scheduled_day": 23,
+      "scheduled_date": "2026-11-10",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK461.java",
+        "exercise/LK461.java"
+      ]
+    },
+    {
+      "id": 494,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "目标和(mark)",
+      "title": "目标和",
+      "scheduled_day": 21,
+      "scheduled_date": "2026-11-08",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK494.java",
+        "hard/LK494.java"
+      ]
+    },
+    {
+      "id": 538,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "没什么难度(ov)",
+      "title": "把二叉搜索树转换为累加树",
+      "scheduled_day": 14,
+      "scheduled_date": "2026-11-01",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK538.java"
+      ]
+    },
+    {
+      "id": 543,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "很简单了 (ov)",
+      "title": "二叉树的直径",
+      "scheduled_day": 13,
+      "scheduled_date": "2026-10-31",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK543.java"
+      ]
+    },
+    {
+      "id": 560,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "和为 K 的子数组（over）",
+      "title": "和为K的子数组",
+      "scheduled_day": 22,
+      "scheduled_date": "2026-11-09",
+      "priority": "重点",
+      "priority_reasons": [
+        "hard 中历史C-自评"
+      ],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK560.java",
+        "hard/LK560.java"
+      ]
+    },
+    {
+      "id": 581,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "最短无序连续子数组 (over)",
+      "title": "最短无序连续子数组",
+      "scheduled_day": 19,
+      "scheduled_date": "2026-11-06",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK581.java",
+        "hard/LK581.java"
+      ]
+    },
+    {
+      "id": 617,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "基本上没有难度(ov)",
+      "title": "合并二叉树",
+      "scheduled_day": 14,
+      "scheduled_date": "2026-11-01",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK617.java",
+        "exercise/LK617.java"
+      ]
+    },
+    {
+      "id": 621,
+      "historical_group": "历史困难",
+      "historical_mark": "over",
+      "historical_note": "任务调度器(over)",
+      "title": "任务调度器",
+      "scheduled_day": 23,
+      "scheduled_date": "2026-11-10",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK621.java",
+        "hard/LK621.java"
+      ]
+    },
+    {
+      "id": 647,
+      "historical_group": "历史中等",
+      "historical_mark": "mark",
+      "historical_note": "回文子串(mark)",
+      "title": "回文子串",
+      "scheduled_day": 16,
+      "scheduled_date": "2026-11-03",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK647.java",
+        "hard/LK647.java"
+      ]
+    },
+    {
+      "id": 739,
+      "historical_group": "历史简单",
+      "historical_mark": "ov",
+      "historical_note": "简单的单调栈 (ov)",
+      "title": "每日温度",
+      "scheduled_day": 8,
+      "scheduled_date": "2026-10-26",
+      "priority": "常规",
+      "priority_reasons": [],
+      "status": "待本轮验证",
+      "grade": null,
+      "first_attempt_date": null,
+      "independent_pass_dates": [],
+      "review_due_dates": [],
+      "evidence": null,
+      "notes": "",
+      "source_files": [
+        "LK739.java"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": "2026-10-19-homework-10-19",
+      "date": "2026-10-19",
+      "day": 1,
+      "registered_at": "2026-10-19T19:23:44+08:00",
+      "submission_directory": "homework/10-19",
+      "submitted_ids": [
+        1,
+        283,
+        3,
+        438,
+        76
+      ],
+      "on_time": true,
+      "minutes": null,
+      "processed": true,
+      "assessment_status": "已验收：5题A",
+      "local_test_passed": true,
+      "local_test_cases": 10034,
+      "self_reported_independent_ids": [
+        1,
+        283,
+        3,
+        438,
+        76
+      ],
+      "oral_questions": [
+        "438和76的diff分别表示什么？设目标需2个a，窗口中有3个a，依次移出一个a变成2个、再移出一个变成1个，两题diff分别怎样变化？",
+        "第3题for内套while，为什么总时间仍是O(n)，而不是O(n²)？"
+      ],
+      "oral_answers": [
+        {
+          "topic": "438/76的diff",
+          "answer": "438表示26个小写字母中频次与p不同的种类数，3到2减1、2到1加1；76表示窗口频次低于t的种类数，3到2不变、2到1加1。",
+          "passed": true
+        },
+        {
+          "topic": "3的线性复杂度",
+          "answer": "外层每次加入一个字符，while每次移出一个字符，累计加入和移出至多约2n，整体O(n)。",
+          "passed": true
+        }
+      ],
+      "missing_information": [],
+      "next_day": {
+        "date": "2026-10-20",
+        "question_ids": [
+          11,
+          15,
+          42,
+          53,
+          55
+        ],
+        "deadline": "22:30"
+      },
+      "duration_status": "无法准确估计",
+      "duration_context": "约3小时课程中穿插完成，无独立计时；不以课程时长作为刷题耗时",
+      "grades": {
+        "1": "A",
+        "3": "A",
+        "76": "A",
+        "283": "A",
+        "438": "A"
+      },
+      "assessed_at": "2026-10-19T19:56:13+08:00"
+    }
+  ],
+  "reporting_preferences": {
+    "duration_optional": true,
+    "mixed_study_duration": "记穿插完成/无法准确估计，不要求补算，不以学习场景总时长当作净刷题时间"
+  }
+}

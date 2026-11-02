@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "status": "passed",
+  "test_cases_by_question": {
+    "11": 2008,
+    "15": 2007,
+    "42": 2009,
+    "53": 2008,
+    "55": 2009
+  },
+  "total_test_cases": 10041,
+  "seed": 1020,
+  "method": "实际Java方法：边界样例、每题2000组随机对照、规模及数值边界",
+  "normalization": "仅在新评审目录副本中添加java.util导入并重命名Solution，方法体不变",
+  "scope": "相应题目合法约束内的本地检查，不等于力扣全量AC",
+  "submission_sha256": {
+    "11": "6572f7e4b032dd7fae2417dedb6140a931b6593b4777054ed0208a544f93bb2b",
+    "15": "bab86ae50929badbb642b00fd2721e63ec096cb0565530b493b1d447a66f2b2a",
+    "42": "04a89520d328e867cc32d4f39364a187c0c560a34333f73a9bc3b3aebc6dcac2",
+    "53": "21390bc57f57d8b8237066fe5a41c4f78a036bb1e29e111cbf3064a5e11942fd",
+    "55": "cbe7888e093dc7bec873e4819c9bf5b75748639e9fa6912898420fb87081ba1d"
+  },
+  "submission_files_unchanged": true
+}
